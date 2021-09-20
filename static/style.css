@@ -5,24 +5,42 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to bottom right, #FFFFFF, #808080);
 }
 
-.header {
-    margin: 0 auto;
-    width: auto;
-    height: 55px;
+.header-site {
+    width: 80%;
+    height: 42px;
     background-color: #FFFF00;
     display: flex;
     justify-content: space-between;
+    box-shadow: 0px 2px 20px black;
+    border-radius: 0 0 5px 5px;
+    margin: 0 auto;
 }
 
 .logo {
-    padding-top: 10px;
+    padding-top: 3px;
     padding-left: 25px;
 }
 
+.logo-a {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 0.1;
+}
+
+.logo-a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.logo-a:hover {
+    text-decoration: none;
+}
+
 .menu {
-    padding-top: 15px;
+    padding-top: 10px;
     margin-right: 0;
 }
 
@@ -34,14 +52,13 @@ body {
 .menu > ul > li {
     margin-right: 25px;
     padding-right: 2px;
-    /* border-right: solid 2px black; */
 }
 
 a {
     color: black;
-    font-size: 14px;
+    font-size: 12px;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 a:hover {
@@ -50,4 +67,37 @@ a:hover {
 
 a:visited {
     color: brown;
+}
+
+
+.content {
+    width: 80%;
+    height: 3000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text > h1 {
+    padding-top: 80px;
+    padding-left: 25px;
+    margin: 0 auto;
+    font-weight: 800;
+}
+
+.text > p {
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.image-hello {
+    padding-top: 80px;
+    width: 200px;
+    padding-right: 20px;
+}
+
+.image-hello > img {
+    width: 100%;
 }
