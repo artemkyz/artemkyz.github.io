@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-image: linear-gradient(to bottom right, #FFFFFF, #808080);
+    background-image: linear-gradient(to bottom right, #FFFFFF, #bdbdbd);
 }
 
 .header-site {
@@ -14,7 +14,7 @@ body {
     background-color: #FFFF00;
     display: flex;
     justify-content: space-between;
-    box-shadow: 0px 2px 20px black;
+    box-shadow: 0px 10px 12px #a0a0a0;
     border-radius: 0 0 5px 5px;
     margin: 0 auto;
 }
@@ -26,8 +26,9 @@ body {
 
 .logo-a {
     font-size: 18px;
-    font-weight: 800;
-    line-height: 0.1;
+    font-weight: 500;
+    line-height: 0.1em;
+    letter-spacing: 0;
 }
 
 .logo-a:visited {
@@ -40,7 +41,7 @@ body {
 }
 
 .menu {
-    padding-top: 10px;
+    padding-top: 12px;
     margin-right: 0;
 }
 
@@ -55,49 +56,70 @@ body {
 }
 
 a {
+    text-decoration: none;
+}
+
+.menu > ul > li > a {
     color: black;
     font-size: 12px;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 600;
+    letter-spacing: 0.1em;
 }
 
-a:hover {
+.menu > ul > li > a:hover {
     text-decoration: underline;
+    text-decoration-color: #000000;
+    text-decoration-thickness: 2px;
 }
 
-a:visited {
-    color: brown;
+.content-first {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
-
 
 .content {
     width: 80%;
-    height: 3000px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
 .text > h1 {
-    padding-top: 80px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-underline-position: under;
+    padding-top: 8em;
     padding-left: 25px;
     margin: 0 auto;
     font-weight: 800;
 }
 
+.content .text > h1 {
+    padding-top: 3em;
+    padding-left: 25px;
+    margin: 0 auto;
+    font-weight: 800;
+}
+
+
 .text > p {
-    padding-top: 20px;
-    padding-left: 50px;
+    width: 475px;
+    padding-top: 1em;
+    padding-left: 25px;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
+    line-height: 1.5em;
+    text-align: justify;
+    text-indent: 1em;
 }
 
 .image-hello {
-    padding-top: 80px;
-    width: 200px;
+    margin-top: 80px;
+    width: 500px;
     padding-right: 20px;
+    border: 1px dotted;
 }
 
-.image-hello > img {
-    width: 100%;
-}
