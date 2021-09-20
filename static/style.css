@@ -5,6 +5,6 @@
     background-color: #FFFF00;
 }
 
-.menu > ul > li {
-    text-decoration: none;
+.menu > ul {
+    list-style-type: none;
 }
