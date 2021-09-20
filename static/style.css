@@ -2,5 +2,9 @@
     margin: 0 auto;
     width: 800px;
     height: 150px;
-    background-color: #FFCB12;
+    background-color: #FFFF00;
+}
+
+.menu > ul > li {
+    text-decoration: none;
 }
