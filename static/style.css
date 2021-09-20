@@ -74,6 +74,7 @@ a {
 }
 
 .content-first {
+    padding-top: 12em;
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -81,6 +82,7 @@ a {
 }
 
 .content {
+    padding-top: 8em;
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -91,14 +93,12 @@ a {
     text-decoration-line: underline;
     text-decoration-thickness: 1px;
     text-underline-position: under;
-    padding-top: 8em;
     padding-left: 25px;
     margin: 0 auto;
     font-weight: 800;
 }
 
 .content .text > h1 {
-    padding-top: 3em;
     padding-left: 25px;
     margin: 0 auto;
     font-weight: 800;
@@ -117,9 +117,8 @@ a {
 }
 
 .image-hello {
-    margin-top: 7em;
     width: 500px;
-    padding-right: 20px;
+    margin-right: 20px;
     border: 1px dotted;
 }
 
