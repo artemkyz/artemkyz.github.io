@@ -251,7 +251,7 @@ a {
         width: 35px;
         height: 25px;
         padding-top: 3px;
-        padding-left: 30px;
+        margin-left: 30px;
     }    
     
     .menu {
