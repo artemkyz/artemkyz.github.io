@@ -17,6 +17,9 @@ body {
     box-shadow: 0px 10px 12px #a0a0a0;
     border-radius: 0 0 5px 5px;
     margin: 0 auto;
+    border-left: thin black solid;
+    border-right: thin black solid;
+    border-bottom: thick black solid;
 }
 
 .logo {
@@ -117,8 +120,66 @@ a {
 }
 
 .image-hello {
-    width: 500px;
-    margin-right: 20px;
-    border: 1px dotted;
+    width: 600px;
+    text-align: right;
 }
 
+.image-hello > img {
+    width: 80%;
+    padding-right: 20px;
+}
+
+
+
+
+@media screen and (max-width: 1280px) {
+    .header-site {
+        width: 90%;
+        height: 42px;
+        background-color: #FFFF00;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0px 10px 12px #a0a0a0;
+        border-radius: 0 0 5px 5px;
+        margin: 0 auto;
+    }
+
+    .content-first {
+        padding-top: 12em;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .content {
+        padding-top: 8em;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }    
+
+    .text > p {
+        width: 400px;
+        padding-top: 1em;
+        padding-left: 25px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.2em;
+        text-align: justify;
+        text-indent: 1em;
+    }    
+
+    .image-hello {
+        width: 400px;
+        text-align: right;
+        padding-right: 20px;
+        padding-top: 2em;
+    }
+    
+    .image-hello > img {
+        width: 100%;
+    }
+    
+  }
