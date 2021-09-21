@@ -45,7 +45,7 @@ body {
 
 .lang {
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
     padding-top: 15px;
     font-size: 16px;
     font-weight: 700;
@@ -162,6 +162,14 @@ a {
         margin: 0 auto;
     }
 
+    .lang {
+        margin: 0 auto;
+        width: 90%;
+        padding-top: 15px;
+        font-size: 16px;
+        font-weight: 700;
+    }    
+
     .content-first {
         padding-top: 12em;
         width: 90%;
@@ -277,7 +285,7 @@ a {
     }
 
     .lang {
-        width: 90%;
+        width: 100%;
         padding-top: 20px;
         font-size: 18px;
         font-weight: 800;
