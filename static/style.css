@@ -44,11 +44,10 @@ body {
 }
 
 .lang {
-    text-align: center;
-    width: 90%;
     margin: 0 auto;
+    width: 90%;
     padding-top: 15px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
 }
 
@@ -239,22 +238,6 @@ a {
     .logo-a:hover {
         text-decoration: none;
     }
-
-    .lang {
-        padding-top: 7px;
-        text-align: center;
-    }
-    
-    .eng {
-        width: 35px;
-    }
-    
-    .rus {
-        width: 35px;
-        height: 25px;
-        padding-top: 3px;
-        margin-left: 30px;
-    }    
     
     .menu {
         width: 100%;
@@ -292,7 +275,13 @@ a {
         text-decoration-color: #000000;
         text-decoration-thickness: 2px;
     }
-    
+
+    .lang {
+        width: 90%;
+        padding-top: 20px;
+        font-size: 18px;
+        font-weight: 800;
+    }    
     
     .content-first {
         padding-top: 5em;
