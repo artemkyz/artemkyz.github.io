@@ -12,11 +12,10 @@ div {
     margin: 0 auto;
     width: 560px;
     background-color: white;
-    box-shadow: 0 0 4px black;
 }
 
 ul.menu {
-    padding-left: 2px;
+    /* padding-left: 2px; */
     height: 20px;
     display: flex;
     list-style-type: none;
