@@ -150,7 +150,7 @@ details {
         border-bottom: medium rgb(207, 207, 207) solid;    
         margin: 0 auto;
         padding-top: 1em;
-        font-weight: 200;
+        font-weight: 300;
         font-size: 18px;
         text-align: center;
         text-align: left;
@@ -160,11 +160,18 @@ details {
     p {
         width: 96%;
         font-size: 16px;
-        font-weight: 200;
+        font-weight: 300;
         line-height: 1.2em;
         text-align: justify;
         text-indent: 0;
     }
+
+    details {
+        text-align: center;
+        margin: 0 auto;
+        font-weight: 300;
+    }
+    
     
     .lang {
         width: 100%;
