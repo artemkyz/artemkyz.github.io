@@ -89,7 +89,7 @@ ul.lang > li > a:hover {
 
 h2 {
     padding-top: 1em;
-    font-weight: 300;
+    font-weight: 200;
     font-size: 18px;
     text-align: center;
 }
@@ -117,14 +117,14 @@ p {
         background-color: white;
     }
 
-    h1 {
+    /* h1 {
         padding-left: 4px;
         border-radius: 0 0 56px 56px;
         border-bottom: medium rgb(207, 207, 207) solid;
         text-decoration: none;
         font-weight: 200;
     }
-
+ */
     h2 {
         margin: 0 auto;
         width: 96%;
