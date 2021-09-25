@@ -22,7 +22,7 @@ ul.menu {
     list-style-type: none;
     background-color: white;
     border-radius: 0 0 60px 60px;
-    border-bottom: medium rgb(207, 207, 207) solid;
+    border-bottom: thick rgb(207, 207, 207) solid;
     justify-content: space-around;
 }
 
@@ -113,7 +113,6 @@ p {
     transition: transform .4s;
 }
 
-
 @media screen and (max-width: 1000px) {
     div {
         margin: 0 auto;
@@ -161,7 +160,7 @@ p {
         display: flex;
         list-style-type: none;
         background-color: white;
-        border-bottom: medium rgb(207, 207, 207) solid;
+        border-bottom: thick rgb(207, 207, 207) solid;
     }
 
     ul.menu a {
