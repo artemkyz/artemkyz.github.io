@@ -126,10 +126,13 @@ p {
     }
 
     h2 {
+        margin: 0 auto;
+        width: 96%;
         padding-top: 1em;
         font-weight: 200;
         font-size: 18px;
         text-align: center;
+        text-align: left;
     }    
 
     p {
@@ -138,7 +141,7 @@ p {
         font-weight: 200;
         line-height: 1.2em;
         text-align: justify;
-        text-indent: 0.8em;
+        text-indent: 0;
     }
     
     .lang {
