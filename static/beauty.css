@@ -129,6 +129,13 @@ p {
         font-weight: 200;
     }
 
+    h2 {
+        padding-top: 1em;
+        font-weight: 300;
+        font-size: 18px;
+        text-align: center;
+    }    
+
     p {
         width: 96%;
         padding-left: 4px;
