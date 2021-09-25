@@ -16,7 +16,6 @@ div {
 
 ul.menu {
     margin: 0 auto;
-    width: 300px;
     height: 20px;
     display: flex;
     list-style-type: none;
@@ -40,7 +39,6 @@ ul.menu a:hover {
 }
 
 ul.menu > li {
-    padding-left: 4px;
     font-size: 16px;
 }
 
@@ -77,9 +75,8 @@ ul.lang > li > a:hover {
     font-weight: 200;
 }
 
-h1 {
+/* h1 {
     padding-top: 1em;
-    padding-right: 2px;
     margin: 0 auto;
     font-weight: 300;
     font-size: 20px;
@@ -88,7 +85,7 @@ h1 {
     text-decoration: none;
     text-align: center;
 
-}
+} */
 
 h2 {
     padding-top: 1em;
@@ -104,7 +101,7 @@ h2 {
 p {
     margin: 0 auto;
     padding-top: 2px;
-    width: 480px;
+    width: 90%;
     font-size: 16px;
     font-weight: 200;
     line-height: 1.2em;
@@ -137,7 +134,6 @@ p {
 
     p {
         width: 96%;
-        padding-left: 4px;
         font-size: 16px;
         font-weight: 200;
         line-height: 1.2em;
