@@ -140,7 +140,7 @@ details {
     }
  */
     h2 {
-        width: 100%;
+        width: 86%;
         border-radius: 0 0 60px 0px;
         text-decoration: none;
         border-bottom: medium rgb(207, 207, 207) solid;    
@@ -154,7 +154,7 @@ details {
     }    
 
     p {
-        width: 96%;
+        width: 86%;
         font-size: 16px;
         font-weight: 300;
         line-height: 1.2em;
