@@ -27,7 +27,7 @@ ul.menu {
 }
 
 ul.menu a {
-    font-size: 14px;
+    font-size: 18px;
     color: black;
     font-weight: 200;
     text-decoration: none;
@@ -37,10 +37,6 @@ ul.menu a:hover {
     text-decoration: underline;
     text-decoration-color: #000000;
     font-weight: 200;
-}
-
-ul.menu > li {
-    font-size: 16px;
 }
 
 .lang {
@@ -93,7 +89,7 @@ h2 {
     margin: 0 auto;
     width: 90%;
     padding-top: 1em;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 18px;
     text-align: left;
 }
@@ -107,7 +103,7 @@ p {
     padding-top: 2px;
     width: 90%;
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 1.2em;
     text-align: justify;
     text-indent: 1em;
@@ -118,7 +114,7 @@ details {
     text-align: center;
     width: 90%;
     margin: 0 auto;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 #temp_img {
@@ -167,8 +163,6 @@ details {
     }
 
     details {
-        text-align: center;
-        margin: 0 auto;
         font-weight: 300;
     }
     
@@ -182,10 +176,10 @@ details {
     }
 
     ul.menu {
-        padding-top: 6px;
+        padding-top: 0px;
         padding-bottom: 6px;
         width: 100%;
-        height: 20px;
+        height: 16px;
         display: flex;
         list-style-type: none;
         background-color: white;
@@ -193,7 +187,7 @@ details {
     }
 
     ul.menu a {
-        font-size: 16px;
+        font-size: 18px;
         color: black;
         font-weight: 200;
         text-decoration: none;
