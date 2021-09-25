@@ -30,6 +30,9 @@ ul.menu {
 ul.menu a {
     font-size: 14px;
     text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-position: under;
+
     color: black;
     font-weight: 400;
 }
@@ -38,7 +41,7 @@ ul.menu a:hover {
     text-decoration: underline;
     text-decoration-color: #000000;
     text-decoration-thickness: 1px;
-    text-underline-position: under;
+    text-underline-position: left;
     font-weight: 400;
 
 }
@@ -74,16 +77,16 @@ ul.lang > li > a {
     color: black;
     font-size: 14px;
     font-weight: 400;
-    text-decoration-line: underline;
     text-decoration-thickness: 1px;
-
+    text-underline-position: under;
 }
 
 ul.lang > li > a:hover {
     text-decoration: underline;
     text-decoration-color: #000000;
     text-decoration-thickness: 1px;
-    text-underline-position: under;
+    text-underline-position: left;
+
     font-weight: 400;
 }
 
@@ -96,6 +99,10 @@ h1 {
     margin: 0 auto;
     font-weight: 400;
     font-size: 20px;
+    border-radius: 0 0 5px 5px;
+    border-bottom: medium rgb(207, 207, 207) solid;
+    text-decoration: none;
+
 }
 
 p {
@@ -104,7 +111,7 @@ p {
     padding-right: 2px;
     font-size: 16px;
     font-weight: 300;
-    line-height: 1.7em;
+    line-height: 1.2em;
     text-align: justify;
     text-indent: 1em;
     transition: transform .4s;
