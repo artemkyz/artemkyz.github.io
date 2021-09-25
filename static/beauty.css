@@ -183,7 +183,9 @@ details {
         display: flex;
         list-style-type: none;
         background-color: white;
+        border-radius: 0 0 0px 60px;
         border-bottom: thick rgb(207, 207, 207) solid;
+    
     }
 
     ul.menu a {
