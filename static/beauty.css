@@ -110,6 +110,19 @@ p {
     transition: transform .4s;
 }
 
+details {
+    width: 90%;
+    margin: 0 auto;
+    font-weight: 200;
+}
+
+#temp_img {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
 @media screen and (max-width: 1000px) {
     div {
         margin: 0 auto;
